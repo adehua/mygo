@@ -18,7 +18,7 @@ func detectCapitalUse(word string) bool {
 
 	distance := 'A' - 'a'
 	fmt.Println(word[0])
-	fmt.Println(word[0]-uint8(distance))
+	fmt.Println(word[0] - uint8(distance))
 	//word = string(word[0]-uint8(distance)) + word[1:]
 	//if strings.ToLower(word) == word {
 	//	return true

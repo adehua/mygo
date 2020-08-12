@@ -19,7 +19,7 @@ func moveZeroes(nums []int) int {
 			l++
 		}
 	}
-	for i := len-1; i >= len-z; i-- {
+	for i := len - 1; i >= len-z; i-- {
 		nums[i] = 0
 	}
 	fmt.Println(nums)

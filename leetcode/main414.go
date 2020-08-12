@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	r := thirdMax([]int{3,2,1})
+	r := thirdMax([]int{3, 2, 1})
 	fmt.Println(r)
 }
 func thirdMax(nums []int) int {

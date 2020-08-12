@@ -1,5 +1,7 @@
 package main
+
 import "fmt"
+
 func main() {
 	s := []byte("")
 	s1 := append(s, 'a')
